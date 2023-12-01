@@ -1,0 +1,46 @@
+/* Custom CSS for Small, Styled Add Record Form */
+
+/* Adjust the form size */
+form {
+    width: 50%; /* Set your desired width */
+    margin: 20px auto; /* Center the form and provide some margin */
+}
+
+/* Add styling to form elements */
+.custom-modal-body input,
+.custom-modal-body label {
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.custom-modal-body input {
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.custom-modal-body input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(81, 105, 131, 0.25);
+}
+
+/* Style the submit button */
+.custom-modal-body input[type="submit"] {
+    background-color: #28a745; /* Set your desired button color */
+    color: #fff;
+    cursor: pointer;
+}
+
+.custom-modal-body input[type="submit"]:hover {
+    background-color: #218838; /* Set your desired button color on hover */
+}
+
+/* Style the form container */
+.custom-modal-body {
+    padding: 30px; /* Adjust padding as needed */
+    background-color: rgb(221, 209, 209); /* Corrected RGB value */
+    border: 1px solid #ced4da;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow for depth */
+} 

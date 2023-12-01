@@ -1,0 +1,89 @@
+
+  
+  .container {
+   
+    max-width: 400px;
+
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    position:center;
+    margin-top:50px;
+    margin-left:50px;
+  }
+  .bsulogo{
+    position:absolute;
+    height:150px; 
+    width:150px;
+    margin-left:100px;
+    margin-top:10px;
+    
+    
+  }
+  
+  body {
+    background-image: url("lipa.png");
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-repeat:no-repeat;
+    
+  }
+  
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  section {
+    text-align: center;
+  }
+  
+  .label-style {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: round;
+  }
+  
+  button {
+    background-color: rgb(85, 112, 137);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #studentInfo,
+  #medicalRecord {
+    margin-top: 20px;
+  }
+  
+  .dpimage {
+    height: 100px;
+
+  }
+  
+  .dpimage:hover {
+    height: 100px; 
+  }
+a{
+    background-color: rgb(85, 112, 137);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    font-size:15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+

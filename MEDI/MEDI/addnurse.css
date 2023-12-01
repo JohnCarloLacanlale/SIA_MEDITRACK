@@ -1,0 +1,54 @@
+/* addnurse.css */
+
+.container {
+    margin-top: 50px;
+}
+
+.nav {
+    background-color: #a7bace;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.border-dark {
+    border: 1px solid #343a40 !important;
+}
+
+.form-control,
+.input-group-text {
+    border-radius: 0;
+}
+
+.input-group-text {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Adjust margin and padding as needed */
+.container p-3.pt-5.pb-5.mt-5.border.border-dark {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 576px) {
+    .w-50 {
+        width: 100% !important;
+    }
+
+    .d-grid.w-50 {
+        width: 100% !important;
+    }
+}
